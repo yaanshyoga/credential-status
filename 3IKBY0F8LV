@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/vc/status-list/2021/v1",
+    "https://w3id.org/security/suites/ed25519-2020/v1"
+  ],
+  "id": "https://yaanshyoga.github.io/credential-status/3IKBY0F8LV",
+  "type": [
+    "VerifiableCredential",
+    "StatusList2021Credential"
+  ],
+  "credentialSubject": {
+    "id": "https://yaanshyoga.github.io/credential-status/3IKBY0F8LV#list",
+    "type": "StatusList2021",
+    "encodedList": "H4sIAAAAAAAAA-3BMQEAAADCoPVPbQsvoAAAAAAAAAAAAAAAAP4GcwM92tQwAAA",
+    "statusPurpose": "revocation"
+  },
+  "issuer": "did:key:z6MkmsuTnEX7PcJr91hwWk3drL6xmErogyA1CjnThJGoFW1t",
+  "issuanceDate": "2024-03-08T23:31:37.729Z",
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2024-03-08T23:31:37Z",
+    "verificationMethod": "did:key:z6MkmsuTnEX7PcJr91hwWk3drL6xmErogyA1CjnThJGoFW1t#z6MkmsuTnEX7PcJr91hwWk3drL6xmErogyA1CjnThJGoFW1t",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "zKejhgWCJzZmpS56B3zjvqb9KSaRN8XVBXPY7ScH2RoW29mda2mEsDij5f5sb3BSudPgsQrR2VF4MyFZ4HPwSeB5"
+  }
+}
